@@ -45,4 +45,10 @@ public class Yakusa extends Humain{
 		return 0;
 	}
 
+	public void direBonjour()
+	{
+		super.direBonjour();
+		parler(" Je viens du clan " + getClan() + "!");
+	}
+
 }

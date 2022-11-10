@@ -6,7 +6,7 @@ public class Humain {
 	private String boisson;
 	private int argent;
 	
-	/* Constructeur */
+	/* Constructeurs */
 	public Humain(String nom, String boisson, int argent)
 	{
 		this.nom = nom;
