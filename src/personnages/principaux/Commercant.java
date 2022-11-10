@@ -19,7 +19,7 @@ public class Commercant extends Humain {
 	public void recevoir(int n)
 	{
 		gagnerArgent(n);
-		parler("Je te remercie, ronin! J'ai désormais " + getArgent());
+		parler("Je te remercie, ronin! J'ai désormais " + getArgent() + " sous en poche.");
 	}
 
 }

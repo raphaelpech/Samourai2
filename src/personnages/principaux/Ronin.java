@@ -14,8 +14,8 @@ public class Ronin extends Humain{
 
 	public void donner(int n, Commercant c)
 	{
-		c.recevoir(n);
 		parler("Voici de l'argent, commerçant!");
+		c.recevoir(n);
 	}
 	
 	public void provoquer(Yakusa y)

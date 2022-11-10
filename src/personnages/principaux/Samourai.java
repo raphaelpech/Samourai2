@@ -10,9 +10,21 @@ public class Samourai extends Ronin{
 		// TODO Auto-generated constructor stub
 	}
 	
+	
 	public void boire(String boisson)
 	{
 		parler("Mmm, un bon verre de " + boisson + "! Gloups!");
+	}
+	
+	public void direBonjour()
+	{
+		super.direBonjour();
+		parler(" Je sers le seigneur " + getSeigneur() + "!");
+	}
+	
+	public String getSeigneur()
+	{
+		return this.seigneur;
 	}
 
 }
