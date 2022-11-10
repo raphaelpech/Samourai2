@@ -17,6 +17,7 @@ public static void main(String [] args) {
   Yakusa yakusa = new Yakusa("Yaku␣le␣noir", "biere", 42, "WarSong");
   yakusa.direBonjour();
   yakusa.extorquer(commercant);
+  commercant.direBonjour();
   Ronin ronin = new Ronin("Roro", "sake", 61);
   ronin.donner(10, commercant );
   ronin.provoquer(yakusa);
