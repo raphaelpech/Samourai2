@@ -10,12 +10,12 @@ public class Samourai extends Ronin{
 		// TODO Auto-generated constructor stub
 	}
 	
-	
 	public void boire(String boisson)
 	{
 		parler("Mmm, un bon verre de " + boisson + "! Gloups!");
 	}
 	
+	@Override
 	public void direBonjour()
 	{
 		super.direBonjour();
