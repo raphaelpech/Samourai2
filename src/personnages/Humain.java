@@ -17,7 +17,7 @@ public class Humain {
 	/* Méthodes */
 	public void parler(String texte)
 	{
-		System.out.println(getNom() + "-" + texte);
+		System.out.println(getNom() + " - " + texte);
 	}
 	
 	public void direBonjour()

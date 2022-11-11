@@ -14,8 +14,7 @@ public class Samourai extends Ronin{
 	{
 		parler("Mmm, un bon verre de " + boisson + "! Gloups!");
 	}
-	
-	@Override
+
 	public void direBonjour()
 	{
 		super.direBonjour();

@@ -5,6 +5,8 @@ import personnages.principaux.Commercant;
 import personnages.principaux.Ronin;
 import personnages.principaux.Samourai;
 import personnages.principaux.Yakusa;
+import personnages.secondaires.GrandMere;
+import personnages.secondaires.Traitre;
 
 public class MonHistoire {
 	
@@ -28,6 +30,20 @@ public class MonHistoire {
 		  musaichi.provoquer(yakusa);
 		  Samourai sam = (Samourai) musaichi;
 		  sam.boire("Vin");
+		  sam.direBonjour();
+		  Traitre traitre = new Traitre("Judas", "Coca-cola", 47, "Jesus");
+		  traitre.extorquer(commercant);
+		  traitre.direBonjour();
+		  traitre.faireLeGentil(yakusa, 47);
+		  GrandMere gm = new GrandMere("Mamie Nova");
+		  gm.direBonjour();
+		  gm.faireConnaissanceAvec(commercant);
+		  gm.faireConnaissanceAvec(yakusa);
+		  gm.faireConnaissanceAvec(ronin);
+		  gm.faireConnaissanceAvec(musaichi);
+		  gm.faireConnaissanceAvec(traitre);
+		  gm.ragoter();
+
 	}
 
 
