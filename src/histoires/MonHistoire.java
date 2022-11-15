@@ -43,6 +43,7 @@ public class MonHistoire {
 		  gm.faireConnaissanceAvec(musaichi);
 		  gm.faireConnaissanceAvec(traitre);
 		  gm.ragoter();
+		  // Arret TD1 : après GrandMere
 
 	}
 
